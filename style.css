@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.header {
+    background-image: url("resources/bg1.png");
+    height: 790px;
+    background-size: cover;
+}
+
+nav {
+    
+    display: flex;
+    padding: 20px 50px;
+    position: fixed; /* add position fixed */
+    top: 0; /* add top 0 */
+    width: 100%; /* add width 100% */
+    transition: background-color 0.5s; /* add transition for background color */
+    /* set initial background color */
+    
+}
+
+nav.sticky {
+    background-color: #8B4513; /* add background color for sticky navigation */
+}
+
+nav .logo {
+    display: block;
+    margin-top: 5px;
+}
+
+nav .logo img {
+    height: 100px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.header nav ul li a {
+    font-size: 25px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+  
+
+.header h2{
+    font-size: 75px;
+    margin: 0px 100px;
+    padding-top: 300px;
+    color: white;
+    font-weight: 500;
+}
+.header p{
+    width: 40%;
+    font-size: 25px;
+    margin: 20px 90px;
+    font-weight: 50;
+    text-align: justify;
+}
+
+
+.main{
+    background-color: #EDE0D4;
+    height: 790px;
+}
+.side-pic {
+    float: right;
+    height: 120px;
+    width: 120px;
+
+}
+
+.side-pic img {
+    height: 120px;
+    width: 100%;
+}
